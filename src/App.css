@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
  body {
     background-color:#22211f;  
@@ -15,7 +16,7 @@
     overflow: hidden;
 }
 .box {
-    width: 40vw;
+    width: 770px;
     height: 100vh;
     background-color: #ebc836;
     display: inline-block;
@@ -69,16 +70,16 @@ h1 {
     color: white;
     font-size: 300px;
     margin: 0 auto ;
-    transform: scaleY(1.1)  translate(600px,-575px);
+    transform: scaleY(1.1)  translate(600px,-635px);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-shadow: 5px 3px 5px black;
 }
 img {
-    aspect-ratio: 16/9;
+    aspect-ratio:16/9;
     margin: 0 auto;
     opacity: 1;
-    transform: scale(1) rotateY(180deg) translate(-525px,-840px);
+    transform: scale(1) rotateY(180deg) translate(-525px,-910px);
 }
 .pg-numbering {
     width: 40px;
@@ -145,7 +146,7 @@ li {
 .bar {
     width: 600px;
     height: 90px;
-    transform: translateY(-1400px);
+    transform: translateY(-1438px);
     display: flex;
     position: relative;
     right:-790px;
@@ -160,31 +161,30 @@ li {
 .discover-box{
     width: 220px;
     height: 40px;
-    transform: translateY(-1470px);
+    transform: translateY(-1500px);
     display: flex;
     position: relative;
     right:-1500px;
     background-color:transparent;
     border-radius: 40px;
     border: 2px solid white;
+  
 }
 .discover-box > p{
     color: #ebc836;
     font-family: sans-serif;
     position: relative;
-    top: 11px;
+    top: 10px;
     left: 39px;
 }
 .discover-box svg {
     transform: translateX(55px) scale(0.5);
 }
-.start-1 {
+.p-1 {
     color: #fff;
+    font-size: 60px;
+    margin: 0 auto ;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 60px;
-    position: relative;
-    top: -334px;
-    left: -152px;
-    display: inline-block;
+    transform:  translate(617px,-595px);
 }
