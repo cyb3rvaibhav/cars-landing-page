@@ -14,7 +14,7 @@
     height: 100vh;  
     display: flex;
     overflow: hidden;
-}
+    }
 .box {
     width: 770px;
     height: 100vh;
@@ -187,4 +187,8 @@ li {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     transform:  translate(617px,-595px);
+}
+
+a {
+    text-decoration: none;
 }
